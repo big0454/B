@@ -52,9 +52,9 @@ function login(vpsType, callback) {
 
   // กำหนด URL และข้อมูลเข้าสู่ระบบตามประเภทของ VPS
   if (vpsType === 'xvre') {
-    loginOptions.url = 'http://IaSIr/login';
+    loginOptions.url = 'https://big-sv1.loma-studio.xyz:23572/JTmi2DRUrtXQURV/';
     loginOptions.form = {
-      'username': 'https://big-sv1.loma-studio.xyz:23572/JTmi2DRUrtXQURV/', // แทนที่ด้วย username ของคุณ
+      'username': 'bigadmin', // แทนที่ด้วย username ของคุณ
       'password': 'big040654'  // แทนที่ด้วย password ของคุณ
     };
   } else if (vpsType === 'idc') {
@@ -103,7 +103,7 @@ function addNewClient(session, successCallback, errorCallback) {
   let apiSettings = {};
 
   if (session.vpsType === 'xvre') {
-    apiUrl = 'http://botunds/addClient';
+    apiUrl = 'https://github.com/big0454/B.git';
     apiSettings = {
       clients: [{
         id: clientUUID,
