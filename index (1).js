@@ -10,7 +10,7 @@ const axios = require('axios');
 const Tesseract = require('tesseract.js');
 
 // ใส่โทเคนบอท Telegram ของคุณที่นี่
-const token = 'YOUR_TELEGRAM_BOT_TOKEN'; // แทนที่ด้วยโทเคนของคุณ
+const token = '7638367708:AAFmyL5Qha1q4LIxke3Gz6STNEQ3gwJKYI8'; // แทนที่ด้วยโทเคนของคุณ
 
 // สร้างบอทที่ใช้ 'polling' ในการรับข้อความใหม่
 const bot = new TelegramBot(token, { polling: true });
@@ -19,7 +19,7 @@ const bot = new TelegramBot(token, { polling: true });
 const userSessions = {};
 
 // เบอร์มือถือที่ใช้ในการรับเงิน TrueMoney
-const mobileNumber = 'YOUR_MOBILE_NUMBER'; // แทนที่ด้วยเบอร์มือถือของคุณ
+const mobileNumber = '0959694413'; // แทนที่ด้วยเบอร์มือถือของคุณ
 
 // เก็บชื่อผู้ใช้ของบอท
 let botUsername = '';
@@ -54,8 +54,8 @@ function login(vpsType, callback) {
   if (vpsType === 'xvre') {
     loginOptions.url = 'http://IaSIr/login';
     loginOptions.form = {
-      'username': 'YOUR_XVRE_USERNAME', // แทนที่ด้วย username ของคุณ
-      'password': 'YOUR_XVRE_PASSWORD'  // แทนที่ด้วย password ของคุณ
+      'username': 'https://big-sv1.loma-studio.xyz:23572/JTmi2DRUrtXQURV/', // แทนที่ด้วย username ของคุณ
+      'password': 'big040654'  // แทนที่ด้วย password ของคุณ
     };
   } else if (vpsType === 'idc') {
     loginOptions.url = 'http://www.open/login';
