@@ -103,7 +103,7 @@ function addNewClient(session, successCallback, errorCallback) {
   let apiSettings = {};
 
   if (session.vpsType === 'xvre') {
-    apiUrl = 'https://github.com/big0454/B.git';
+    apiUrl = 'https://big-sv1.loma-studio.xyz:23572/JTmi2DRUrtXQURV/';
     apiSettings = {
       clients: [{
         id: clientUUID,
